@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+header {
+    width: 100%;
+    height: 13vh;
+    /* border-bottom: 3px solid green; */
+}
+
+header nav {
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .left-side {
+    padding: 10px;
+
+
+}
+
+header nav .left-side a {
+    color: green;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+header nav .right-side {
+    padding: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    /* text-transform:capitalize; */
+}
+
+header nav .right-side span a {
+    color: green;
+    font-weight: 500;
+    padding-left: 2px;
+
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+main .contaniner {
+    margin: 30px;
+    width: 50%;
+    height: 120vh;
+    border: 3px solid #f2f7f2;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    box-shadow: 1.5px 1px 1.5px 1px #e4ebe4;
+}
+
+main .contaniner .box {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+main .contaniner .box .heading {
+    margin: 30px;
+
+}
+
+main .contaniner .box .heading h2 {
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+
+main .contaniner .box .apple {
+    width: 90%;
+    /* background-color: aqua; */
+    text-align: center;
+    border-radius: 22px;
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+main .contaniner .box .apple i {
+    margin-right: 3px;
+}
+
+main .contaniner .box .apple a {
+    color: black;
+}
+
+main .contaniner .box .apple:hover {
+    background-color: #e4ebe4;
+}
+
+main .contaniner .box .google {
+    margin: 1vw 0px;
+    width: 90%;
+    height: 7vh;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+
+    text-align: center;
+    border-radius: 22px;
+    background-color: rgba(71, 117, 253, 0.9);
+    /* padding: 10px; */
+    gap: 4%;
+
+}
+
+main .contaniner .box .google .img-box {
+    width: 30%;
+    /* background-color: #f2f7f2; */
+    text-align: left;
+    /* padding-left: 2vw; */
+
+    margin-left: 2vw;
+    display: flex;
+    align-items: center;
+
+}
+
+main .contaniner .box .google .img-box .img {
+    width: 40px;
+
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-size: cover;
+}
+
+main .contaniner .box .google .img-box .img img {
+    width: 60%;
+}
+
+main .contaniner .box .google .btn {
+    width: 50%;
+    text-align: left;
+    /* padding-left: 4vw; */
+}
+
+main .contaniner .box .google .btn a {
+    color: white;
+}
+
+main .contaniner .box .google:hover {
+    background-color: #1f57c3;
+
+}
+
+main .contaniner .box .line {
+    height: 2px;
+    width: 90%;
+    border-bottom: 2px solid #e4ebe4;
+    text-align: center;
+    margin: 25px 0px;
+
+}
+
+main .contaniner .box .line span {
+    position: relative;
+    top: -12px;
+    background-color: white;
+    padding: 10px;
+    font-weight: 300;
+
+}
+
+main .contaniner .box .personal-info {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* margin: 10px 10px; */
+    /* background-color: #1f57c3; */
+    /* flex-wrap: wrap; */
+    padding: 0px 2.5vw;
+    gap: 17%;
+}
+
+main .contaniner .box .personal-info .input-box1 {
+    /* margin-right: 24px; */
+    width: 50%;
+    /* background: #000; */
+    height: 6.5vh;
+}
+
+main .contaniner .box .personal-info .input-box2 {
+    /* margin-left: 24px; */
+    width: 50%;
+    height: 6.5vh;
+    /* background-color: #1f57c3; */
+}
+
+main .contaniner .box .personal-info .input-box1 input,
+.input-box2 input {
+    width: 100%;
+    height: 100%;
+    padding: 0px 0.6vw;
+    border-radius: 6px;
+    outline: none;
+    border: 3px solid #e4ebe4;
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+
+main .contaniner .box .email-box {
+    width: 90%;
+    margin: 2vw 0px;
+    height: 6vh;
+}
+
+
+
+
+main .contaniner .box .email-box .input-box {
+    width: 100%;
+    height: 100%;
+
+    /* padding-top: 10px; */
+    /* padding-bottom: 5px; */
+    /* background-color: brown; */
+    position: relative;
+    border: 3px solid #e4ebe4;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 50px; */
+    padding: 0px 1vw;
+
+
+
+
+}
+
+main .contaniner .box .input-box input {
+    width: 95%;
+    background-color: transparent;
+    height: 100%;
+    /* padding: 0px 10px; */
+    border: none;
+    font-size: 1vw;
+    font-weight: 400;
+    outline: none;
+}
+
+main .contaniner .box .input-box .icon-box {
+    /* position: absolute; */
+    
+    display: flex;
+    width: 5%;
+    justify-content: right;
+    cursor: pointer;
+    align-items: center;
+    height: 100%;
+    /* background-color: #1f57c3; */
+}
+
+main .contaniner .box .input-box .icon-box .close-eye {
+    /* position: absolute; */
+    top: 13px;
+    right: 8px;
+    /* display: block; */
+}
+
+main .contaniner .box .input-box .icon-box .open-eye {
+    display: none;
+    /* position: absolute; */
+    top: 13px;
+    right: 8px;
+}
+
+main .contaniner .box .select-box {
+    position: relative;
+    margin: 10px;
+
+    width: 90%;
+    background-color: transparent;
+    height: 45px;
+    /* border-radius: 20px; */
+
+
+
+}
+
+main .contaniner .box .select-box .select-country {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 1vw;
+
+    /* text-align: center; */
+    justify-content: space-between;
+    position: relative;
+    height: 100%;
+    border: 3px solid #e4ebe4;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+
+}
+
+main .contaniner .box .select-box .select-country span {
+    font-size: 1.1vw;
+    font-weight: 400;
+    color: gray;
+}
+
+main .contaniner .box .select-box .select-country i {
+    font-size: 1.1vw;
+    transition: 0.3s all ease;
+}
+main .contaniner .box .select-box.active .select-country i{
+    transform: rotate(-180deg);
+}
+main .contaniner .box .select-box  .wrapper{
+    display: none;
+    width: 44vw;
+    height: 50vh;
+    
+    border: 3px solid #e4ebe4;
+    
+    background-color: white;
+    border-radius: 20px;
+    margin: 0.2vw 0px;
+    padding: 1vw ;
+    
+
+}
+main .contaniner .box .select-box.active .wrapper{
+    display: block;
+    
+}
+main .contaniner .box .select-box  .wrapper .search-box{
+    width: 100%;
+    height: 5vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #e4ebe4;
+    padding: 0px 0.2vw;
+    /* background-color: #1f57c3; */
+}
+
+main .contaniner .box .select-box  .wrapper .search-box i{
+    width: 5%;
+    font-size: 1.4vw;
+    cursor: pointer;
+}
+main .contaniner .box .select-box  .wrapper .search-box input{
+    width: 95%;
+    height: 100%;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding:0px  0.7vw 0px 0.3vw;
+}
+main .contaniner .box .select-box  .wrapper .country-name{
+    width: 100%;
+    margin-top: 0.7vw;
+    padding:  0.2vw 0px ;
+    max-height: 90%;
+    /* background-color: #1f57c3; */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+main .contaniner .box .select-box  .wrapper .country-name::-webkit-scrollbar{
+    width: 0.9vw;
+    background-color: white;
+    border: 2px solid #e4ebe4;
+}
+main .contaniner .box .select-box  .wrapper .country-name::-webkit-scrollbar-thumb{
+    width: 0.2vw;
+    background-color: #e4ebe4;
+    /* height: 0.5vh; */
+    border-radius: 10px;
+}
+main .contaniner .box .select-box  .wrapper .country-name ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+main .contaniner .box .select-box  .wrapper .country-name ul li{
+    /* padding: 1vw 0px; */
+    margin: 0.5vw 0px;
+    font-size: 1vw;
+    font-weight: 400;
+    /* border-radius: 20px; */
+    padding:  0.3vw 0.9vw;
+}
+main .contaniner .box .select-box  .wrapper .country-name ul li:hover{
+    background-color: #e4ebe4;
+}
+
+main .contaniner .check-box {
+    display: block;
+    width: 100%;
+    padding: 0px 2.6vw;
+    margin: 1.4vw 0px;
+}
+
+main .contaniner .check-box .content-box-check-box {
+    width: 100%;
+    display: flex;
+    /* margin: 30px 30px; */
+    /* padding-right: 30px; */
+    gap: 4%;
+    padding: 0.4vw 0px;
+}
+
+main .contaniner .check-box .content-box-check-box input {
+    accent-color: green;
+    width: 18px;
+    height: 18px;
+}
+
+main .contaniner .check-box .content-box-check-box .check-box-heading {
+    width: 90%;
+
+    text-align: justify;
+
+
+}
+
+main .contaniner .check-box .content-box-check-box .check-box-heading h3 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+main .contaniner .box .create-account {
+    margin: 30px;
+    width: 90%;
+
+}
+
+main .contaniner .box .create-account .green-btn {
+    width: 100%;
+    cursor: pointer;
+    margin: 0px 20px;
+    background-color: green;
+    padding: 10px 14.5rem;
+    border-radius: 20px;
+}
+
+main .contaniner .box .create-account .green-btn a {
+    color: white;
+}
+
+main .contaniner .box .already-account {
+    margin: 10px;
+}
+
+main .contaniner .box .already-account span {
+    font-weight: 300;
+}
+
+main .contaniner .box .already-account span a {
+    color: green;
+    font-weight: 400;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title title="Create An Account - DownWork">Create An Account - DownWork</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Kanit:ital@1&family=Poppins:ital,wght@0,300;0,500;0,600;0,800;1,400;1,900&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="singup.css">
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <div class="left-side"><a href="index.html">DownWork</a></div>
+            <div class="right-side"> Here to hire talent? <span><a href="signup.html">Join as a client</a></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="contaniner">
+            <div class="box">
+                <div class="heading">
+                    <h2>Sign up to find  work you love</h2>
+                </div>
+                <div class="apple">
+                    <span><i class='bx bxl-apple'></i></span>
+                    <a href="#">Continue with Apple</a>
+                </div>
+                <div class="google">
+                    <div class="img-box">
+                        <div class="img">
+                            <img src="images/google.2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="btn"><a href="#">Continue with Google</a></div>
+                </div>
+                <div class="line"><span>or</span></div>
+                <div class="personal-info">
+                    <div class="input-box1">
+                        <input type="text" name="first-name" id="personal-info" placeholder="First name">
+                    </div>
+                    <div class="input-box2">
+                        <input type="text" name="last-name" id="personal-info" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="email-box">
+                    <div class="input-box">
+                        <input type="password" id="password" placeholder="Enter Passowrd (more then 8 Charatictics)">
+                        <div class="icon-box" onclick="togglePassword()">
+
+                            <span class="close-eye"><i class='bx bx-low-vision'></i></span>
+                            <span class="open-eye"><i class='bx bx-show'></i></span>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="select-box">
+
+                    <div class="select-country">
+                        <span>Select country</span>
+                        <i class='bx bxs-chevron-down drop-down drop-down-icon'></i>
+                    </div>
+                    <div class="wrapper">
+                        <div class="search-box">
+                            <i class='bx bx-search'></i>
+                            <input type="text" placeholder="Search">
+                        </div>
+                        <div class="country-name">
+                            <li>Pakistan</li>
+                            <li>Pakistan</li>
+                            <li>Pakistan</li>
+                            <li>Pakistan</li>
+                            <li>Pakistan</li>
+                            <li>Pakistan</li>
+                            <li>Pakistan</li>
+                            <li>Pakistan</li>
+                            
+                            
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="check-box">
+                    <div class="content-box-check-box">
+                        <input type="checkbox" id="check-box">
+                        <div class="check-box-heading">
+                            <h3>Send me emails with tips on how to find talent that fits my
+                                needs.</h3>
+                        </div>
+                    </div>
+                    <div class="content-box-check-box">
+                        <input type="checkbox" id="check-box">
+                        <div class="check-box-heading">
+                            <h3>Yes, I understand and agree to the <a href="#">Downwork Terms of
+                                    Service</a> , including the <a href="#">User Agreement</a> and <a href="#">Privacy
+                                    Policy</a> .</h3>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="create-account">
+                    <span class="green-btn"><a href="#">Create my account</a></span>
+
+
+                </div>
+                <div class="already-account">
+                    <span>Already Have an Account? <a href="login.html">login</a></span>
+                </div>
+
+
+
+            </div>
+        </div>
+    </main>
+    <script>
+        function togglePassword() {
+
+            let CloseEye = document.querySelector(".close-eye");
+            let OpenEye = document.querySelector(".open-eye");
+            let ShowPassword = document.querySelector("#password");
+            if (ShowPassword.type == "password") {
+                ShowPassword.type = "Text"
+                CloseEye.style.display = "None"
+                OpenEye.style.display = "Block"
+
+
+            } else {
+                ShowPassword.type = "password"
+                CloseEye.style.display = "Block"
+                OpenEye.style.display = "None"
+
+            }
+
+
+        }
+
+
+        let selectCountryBox = document.querySelector(".select-box");
+        let seletBtn = document.querySelector(".select-country");
+        
+        let countries = ["Pakistan", "UAE", "USA", "India", "Afghanistan", "Chaina", "Canada", "Farance"];
+        let option = document.querySelector(".country-name")
+
+        function addCountry(){
+            countries.forEach(country =>{
+                console.log(country)               
+                
+            })
+        }
+
+
+        
+        seletBtn.addEventListener("click",()=>{
+            selectCountryBox.classList.toggle("active")
+        })
+        
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+
+</html>

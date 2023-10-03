@@ -13,267 +13,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Kanit:ital@1&family=Poppins:ital,wght@0,300;0,500;0,600;0,800;1,400;1,900&family=Roboto:wght@100&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="login.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            text-decoration: none;
-            font-family: 'Poppins', sans-serif;
-
-        }
-
-        header {
-            background-color: white;
-            width: 100%;
-            height: 20vh;
-            /* background-color: #e8d8d8; */
-            /* position: fixed; */
-            position: sticky;
-            top: 0px;
-            z-index: 100;
-            
-
-
-
-        }
-
-        header .left-side {
-            max-width: 60%;
-
-            display: flex;
-
-            /* margin-right: 30%; */
-            /* background-color: #c78f8f; */
-            align-items: center;
-            margin-top: 1rem;
-            position: fixed;
-
-
-        }
-
-        header .left-side .logo a {
-            /* padding: 20px 10px; */
-            color: #43bd43;
-            font-size: 20px;
-            font-weight: 700;
-            padding-left: 2rem;
-        }
-
-        main {
-            height: 100vh;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-        }
-
-        main .container {
-            margin: 3rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: 1px solid #e8e8e8;
-            height: 100%;
-            width: 40%;
-            border-radius: 10px;
-        }
-
-        main .container .box {
-            justify-content: center;
-            display: flex;
-            align-items: center;
-            width: 85%;
-        }
-
-        main .container .box .contant-box {
-            text-align: center;
-        }
-
-        main .container .box .contant-box .heading {
-            padding: 50px;
-            font-size: 1.7rem;
-            font-weight: 600;
-            word-spacing: 4px;
-            letter-spacing: 1px;
-        }
-
-        main .container .box .contant-box .email-box {
-            width: 100%;
-        }
-
-        main .container .box .contant-box .email-box input {
-            width: 382px;
-            height: 42px;
-            border: 2px solid #e8e8e8;
-            outline: none;
-            border-radius: 5px;
-            margin-right: 23px;
-            padding: 0px 10px 0px 35px;
-            justify-content: center;
-            align-items: center;
-            font-family: sans-serif;
-
-        }
-
-        main .container .box .contant-box .email-box span {
-            position: relative;
-            right: -34px;
-            top: 3px;
-
-        }
-
-        main .container .box .contant-box .email-box span i {
-            font-size: 20px;
-
-        }
-
-        main .container .box .line {
-            height: 2px;
-
-            border: 1px solid #e8e8e8;
-            text-align: center;
-            margin: 30px 17px;
-
-        }
-
-        main .container .box .line span {
-            position: relative;
-            top: -12px;
-            padding: 0px 20px;
-            background-color: white;
-            font-size: 14px;
-            font-weight: 400;
-        }
-
-        .continue-btn-green {
-            background-color: #14a800;
-            margin: 30px 17px;
-            border-radius: 20px;
-            padding: 10px;
-            border: 1px solid #14a800;
-            cursor: pointer;
-            word-spacing: 2px;
-
-        }
-
-        .continue-btn-green a {
-            color: white;
-            font-weight: 400;
-        }
-
-        .continue-btn-blue {
-            background-color: #4285f4;
-            margin: 30px 17px;
-            border-radius: 20px;
-            padding: 10px;
-            border: 1px solid #4285f4;
-            cursor: pointer;
-            word-spacing: 2px;
-            height: 45px;
-            display: inline-flex;
-            width: 90%;
-            text-align: center;
-            justify-content: center;
-            position: relative;
-            /* flex-direction: column; */
-
-        }
-
-
-        .continue-btn-blue a {
-            color: white;
-            font-weight: 400;
-
-        }
-
-        .continue-btn-blue .img {
-            position: absolute;
-
-            left: 7px;
-            top: 5px;
-            background-color: white;
-            border-radius: 50%;
-        }
-
-        .continue-btn-blue img {
-            width: 30px;
-
-            padding: 5px;
-            justify-content: center;
-            display: flex;
-            justify-content: center
-        }
-
-
-        .continue-btn-apple {
-            background-color: white;
-            border-radius: 20px;
-            border: 1px solid black;
-            margin: 30px 17px;
-            padding: 10px;
-            cursor: pointer;
-            margin-bottom: 100px;
-            word-spacing: 2px;
-        }
-
-        .continue-btn-apple a {
-            color: black;
-            font-weight: 400;
-        }
-
-        main .container .box .contant-box .sign-up-btn {
-            margin: 50px 0px;
-        }
-
-        main .container .box .contant-box .sign-up-btn span {
-            background-color: white;
-            border-radius: 20px;
-            border: 2px solid green;
-            padding: 10px 50px;
-            cursor: pointer;
-
-        }
-
-        main .container .box .contant-box .sign-up-btn a {
-            color: green;
-            font-weight: 600;
-        }
-
-        main .container .box .contant-box .sign-up-btn span:hover {
-            background-color: green;
-            color: white;
-        }
-
-        footer {
-            background-color: white;
-            height: 14vh;
-            width: 100%;
-            margin-top: 20px;
-            display: flex;
-            justify-content: center;
-            height: 20vh;
-
-
-        }
-
-        .footer-contant {
-            background-color: rgb(1, 27, 1);
-            width: 98%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 20px;
-            height: 100%;
-
-        }
-
-        .footer-contant h2 {
-            font-size: 12px;
-            color: white;
-            font-weight: 500;
-        }
+        
     </style>
 </head>
 
@@ -289,11 +31,15 @@
         <div class="container">
             <div class="box">
                 <div class="contant-box">
-                    <div class="heading">Log In with CODER</div>
+                    <div class="heading">Log In with DownWork</div>
                     <div class="email-box">
-                        <span><i class='bx bxs-user'></i></span>
+                        <div class="input-box">
+                            <div class="icon-box"><span><i class='bx bxs-user'></i></span></div>
+                        
 
-                        <input required type="email" placeholder="Username or email">
+                            <input required type="email" placeholder="Username or email">
+                        </div>
+                       
 
                     </div>
                     <div class="continue-btn-green">
@@ -306,7 +52,7 @@
 
                     <div class="continue-btn-blue">
                         <div class="img">
-                            <img src="/images/google.png.png" alt="">
+                       
                         </div>
                         <a href="#">Continue With Google</a>
                     </div>

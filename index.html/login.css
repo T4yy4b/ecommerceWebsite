@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 20vh;
+    /* background-color: #e8d8d8; */
+    /* position: fixed; */
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    
+
+
+
+}
+
+header .left-side {
+    max-width: 60%;
+
+    display: flex;
+
+    /* margin-right: 30%; */
+    /* background-color: #c78f8f; */
+    align-items: center;
+    margin-top: 1rem;
+    position: fixed;
+
+
+}
+
+header .left-side .logo a {
+    /* padding: 20px 10px; */
+    color: #43bd43;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 2rem;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main .container {
+    margin: 2vw 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e8e8e8;
+    height: 100%;
+    width: 40%;
+    border-radius: 10px;
+}
+
+main .container .box {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 85%;
+}
+
+main .container .box .contant-box {
+    text-align: center;
+}
+
+main .container .box .contant-box .heading {
+   
+    font-size: 1.7rem;
+    width: 100%;
+    font-weight: 600;
+    word-spacing: 4px;
+    
+    letter-spacing: 1px;
+    margin: 3vw 0px;
+}
+
+main .container .box .contant-box .email-box {
+    width: 100%;
+   
+    height: 4vh;
+    /* background-color: #43bd43; */
+    padding: 0px 2vw;
+    gap: 2%;
+    
+}
+main .container .box .contant-box .email-box  .input-box{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+
+border: 2px solid rgba(155, 155, 155, 0.856);
+}
+main .container .box .contant-box .email-box  .input-box .icon-box{
+    width: 10%;
+}
+
+main .container .box .contant-box .email-box .input-box input {
+   width: 90%;
+   height: 100%;
+    /* border: 2px solid #e8e8e8; */
+    outline: none;
+    border-radius: 5px;
+    margin-right: 23px;
+    border: none;
+    /* padding: 0px 10px 0px 35px; */
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+
+
+
+
+main .container .box .line {
+    height: 2px;
+
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    
+
+}
+
+main .container .box .line span {
+    position: relative;
+    top: -12px;
+    padding: 0px 20px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.continue-btn-green {
+    background-color: #14a800;
+    margin: 30px 17px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #14a800;
+    cursor: pointer;
+    word-spacing: 2px;
+
+}
+
+.continue-btn-green a {
+    color: white;
+    font-weight: 400;
+}
+
+.continue-btn-blue {
+    background-color: #4285f4;
+    margin: 1vw 0px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #4285f4;
+    cursor: pointer;
+    word-spacing: 2px;
+    height: 45px;
+    display: flex;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    
+    /* flex-direction: column; */
+
+}
+
+
+.continue-btn-blue a {
+    color: white;
+    font-weight: 400;
+
+}
+
+.continue-btn-blue .img {
+   
+}
+
+.continue-btn-blue img {
+    width: 30px;
+
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    justify-content: center
+}
+
+
+.continue-btn-apple {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 30px 17px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    word-spacing: 2px;
+}
+
+.continue-btn-apple a {
+    color: black;
+    font-weight: 400;
+}
+
+main .container .box .contant-box .sign-up-btn {
+    margin: 50px 0px;
+}
+
+main .container .box .contant-box .sign-up-btn span {
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid green;
+    padding: 10px 50px;
+    cursor: pointer;
+
+}
+
+main .container .box .contant-box .sign-up-btn a {
+    color: green;
+    font-weight: 600;
+}
+
+main .container .box .contant-box .sign-up-btn span:hover {
+    background-color: green;
+    color: white;
+}
+
+footer {
+    background-color: white;
+    height: 14vh;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+
+
+}
+
+.footer-contant {
+    background-color: rgb(1, 27, 1);
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 100%;
+
+}
+
+.footer-contant h2 {
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}

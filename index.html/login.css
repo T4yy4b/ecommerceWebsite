@@ -16,6 +16,7 @@ header {
     position: sticky;
     top: 0px;
     z-index: 100;
+    padding: 1vw 2vw;
     
 
 
@@ -30,7 +31,7 @@ header .left-side {
     /* margin-right: 30%; */
     /* background-color: #c78f8f; */
     align-items: center;
-    margin-top: 1rem;
+  
     position: fixed;
 
 
@@ -39,9 +40,9 @@ header .left-side {
 header .left-side .logo a {
     /* padding: 20px 10px; */
     color: #43bd43;
-    font-size: 20px;
+    font-size: 2.2vw;
     font-weight: 700;
-    padding-left: 2rem;
+   
 }
 
 main {
@@ -65,19 +66,27 @@ main .container {
 }
 
 main .container .box {
-    justify-content: center;
+    background-color: rgb(202, 130, 37);
+    
+    width: 100%;
+    /* padding: 1vw 2vw; */
+    height: 100%;
     display: flex;
     align-items: center;
-    width: 85%;
+    justify-content: center;
 }
 
 main .container .box .contant-box {
-    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+   background-color: #4285f4;
+    flex-direction: column;
 }
 
 main .container .box .contant-box .heading {
    
-    font-size: 1.7rem;
+    font-size: 1.7vw;
     width: 100%;
     font-weight: 600;
     word-spacing: 4px;
@@ -185,9 +194,7 @@ main .container .box .line span {
 
 }
 
-.continue-btn-blue .img {
-   
-}
+
 
 .continue-btn-blue img {
     width: 30px;
@@ -215,27 +222,33 @@ main .container .box .line span {
     font-weight: 400;
 }
 
-main .container .box .contant-box .sign-up-btn {
-    margin: 50px 0px;
-}
 
-main .container .box .contant-box .sign-up-btn span {
+
+main .container .box .contant-box .sign-up-btn-login {
     background-color: white;
     border-radius: 20px;
     border: 2px solid green;
-    padding: 10px 50px;
+    padding: 1vw 2vw;
     cursor: pointer;
+    margin:  3vw ;
 
 }
 
-main .container .box .contant-box .sign-up-btn a {
+main .container .box .contant-box .sign-up-btn-login a {
     color: green;
+    font-size: 1.2vw;
     font-weight: 600;
 }
 
-main .container .box .contant-box .sign-up-btn span:hover {
+main .container .box .contant-box .sign-up-btn-login:hover  {
     background-color: green;
+   color: #e8e8e8;
+   
+}
+main .container .box .contant-box .sign-up-btn-login:hover a {
+    
     color: white;
+   
 }
 
 footer {

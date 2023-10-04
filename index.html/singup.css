@@ -16,7 +16,7 @@ header {
 }
 
 header nav {
-    margin: 10px 20px;
+    margin: 1vw 2vw;
     display: flex;
     justify-content: space-between;
     align-items: center;

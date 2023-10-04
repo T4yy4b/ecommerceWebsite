@@ -7,7 +7,7 @@
     list-style: none;
     outline: none;
 
-    
+
 }
 
 
@@ -2205,7 +2205,7 @@ footer {
     width: 100%;
     height: 100%;
     padding: 0px 1vw;
-    margin: 2vw 0px;
+    margin: 2vw 0px 1vw;
 }
 
 footer .footer-contanir {
@@ -2231,16 +2231,16 @@ footer .footer-contanir .footer-content-box {
 
 footer .footer-contanir .footer-content-box .list {
     display: flex;
-  
-    
+
+
 }
 
 footer .footer-contanir .footer-content-box .list ul li {
     padding: 0.5vw 0px;
     display: flex;
-    justify-content: center;
-    
-    
+    text-align: center;
+
+
 }
 
 footer .footer-contanir .footer-content-box .list ul li a {
@@ -2269,23 +2269,25 @@ footer .footer-contanir .second-links .social-media-links {
 
 }
 
-footer .footer-contanir .second-links .social-media-links h3{
+footer .footer-contanir .second-links .social-media-links h3 {
     font-size: 1.2vw;
     color: #f0eeee;
 }
 
-footer .footer-contanir .second-links .social-media-links .icon-box{
+footer .footer-contanir .second-links .social-media-links .icon-box {
     display: flex;
     align-items: center;
-    
+
 }
-footer .footer-contanir .second-links .social-media-links .icon-box i{
+
+footer .footer-contanir .second-links .social-media-links .icon-box i {
     padding: 0.8vw;
     border-radius: 50%;
+    border: 1px solid #f9f9f986;
 }
 
 
-footer .footer-contanir .second-links .social-media-links .icon-box a{
+footer .footer-contanir .second-links .social-media-links .icon-box a {
     padding: 0px 1vw;
     font-size: 1.3vw;
 
@@ -2294,6 +2296,7 @@ footer .footer-contanir .second-links .social-media-links .icon-box a{
 footer .footer-contanir .second-links .social-media-links .icon-box i:hover {
     background-color: #f9f9f986;
 }
+
 footer .footer-contanir .second-links .mobile-app {
     display: flex;
     align-items: center;
@@ -2305,18 +2308,24 @@ footer .footer-contanir .second-links .mobile-app {
 
 }
 
-footer .footer-contanir .second-links .mobile-app h3{
+footer .footer-contanir .second-links .mobile-app h3 {
     font-size: 1.2vw;
     color: white;
 }
 
-footer .footer-contanir .second-links .mobile-app .icon-box{
+footer .footer-contanir .second-links .mobile-app .icon-box {
     display: flex;
     align-items: center;
 }
 
 
-footer .footer-contanir .second-links .mobile-app .icon-box a{
+footer .footer-contanir .second-links .mobile-app .icon-box i {
+    padding: 0.8vw;
+    border-radius: 50%;
+    border: 1px solid #f9f9f986;
+}
+
+footer .footer-contanir .second-links .mobile-app .icon-box a {
     padding: 0px 1vw;
     font-size: 1.3vw;
 }
@@ -2327,16 +2336,16 @@ footer .footer-contanir .second-links .mobile-app .icon-box i:hover {
 
 
 footer .footer-contanir hr {
-    margin: 1.3vw 3.4vw;
+    margin: 1.3vw 3.2vw;
 }
 
 footer .footer-contanir .copy-right {
-   padding: 0px 2vw;
+    padding: 0px 3.9vw;
     display: flex;
     align-items: center;
-    
+
     justify-content: center;
-    
+
 }
 
 footer .footer-contanir .copy-right ul {
@@ -2348,16 +2357,16 @@ footer .footer-contanir .copy-right ul {
 footer .footer-contanir .copy-right ul li {
     font-size: 0.7vw;
     color: rgb(250, 248, 248);
-   
-   
+
+
 }
 
 footer .footer-contanir .copy-right ul li a {
     /* padding: 0px 1vw; */
     color: rgb(238, 238, 238);
     font-size: 0.8vw;
-   
-   
+
+
 
 }
 
@@ -2376,7 +2385,7 @@ footer .footer-contanir .copy-right ul li a:hover {
 }
 
 .main-enterprice .big-container {
-    padding: 0px 1rem;
+    padding: 0px 2rem;
     height: 100%;
     width: 100%;
 
@@ -2389,10 +2398,10 @@ footer .footer-contanir .copy-right ul li a:hover {
 }
 
 .main-enterprice .big-container .section-one .blue-container {
-    max-width: 1510px;
+    max-width: 100vw;
     display: flex;
     justify-content: space-between;
-    height: 624px;
+    height: 70vh;
     background-color: #1f57c3;
     /* margin: 0px 2rem; */
     border-radius: 10px;
@@ -2401,26 +2410,30 @@ footer .footer-contanir .copy-right ul li a:hover {
 .main-enterprice .big-container .section-one .blue-container .left-side-blue-container {
     width: 45%;
     height: 100%;
+    padding: 1vw 2vw;
 }
 
 .main-enterprice .big-container .section-one .blue-container .left-side-blue-container .content-box-left-side-blue-container {
-    margin: 2rem;
+
+    width: 100%;
+    height: 100%;
 }
 
 .main-enterprice .big-container .section-one .blue-container .left-side-blue-container .content-box-left-side-blue-container .top-heading {
-    padding-bottom: 1.2rem;
-    font-size: 1.4rem;
+    padding: 1vw 0px;
+    font-size: 1.4vw;
     color: rgb(188, 187, 187);
 
 }
 
 .main-enterprice .big-container .section-one .blue-container .left-side-blue-container .content-box-left-side-blue-container .main-heading {
+    margin: 3vw 0px 0px;
     width: 80%;
-    line-height: 50px;
+    line-height: 3.3vw;
 }
 
 .main-enterprice .big-container .section-one .blue-container .left-side-blue-container .content-box-left-side-blue-container .main-heading h3 {
-    font-size: 2.8rem;
+    font-size: 2.8vw;
     text-transform: capitalize;
     color: white;
     font-weight: 500;
@@ -2433,21 +2446,23 @@ footer .footer-contanir .copy-right ul li a:hover {
 }
 
 .main-enterprice .big-container .section-one .blue-container .left-side-blue-container .content-box-left-side-blue-container .para {
-    margin: 2rem 0px 3rem;
-    width: 100%;
+    width: 60%;
+    margin: 1vw 0px;
 }
 
 .main-enterprice .big-container .section-one .blue-container .left-side-blue-container .content-box-left-side-blue-container .para p {
     color: white;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.1vw;
+    font-weight: 300;
 }
 
-.main-enterprice .big-container .section-one .blue-container .left-side-blue-container .content-box-left-side-blue-container .white-btn {
-    padding: 0.8rem 1.8rem;
-    background-color: white;
+.main-enterprice .big-container .section-one .blue-container .left-side-blue-container .content-box-left-side-blue-container button {
+    margin: 5vw 0px;
+    outline: none;
+    background-color: #fff;
+    padding: 1vw 1.5vw;
     border-radius: 20px;
-    cursor: pointer;
+    border: none;
 
 }
 

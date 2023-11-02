@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    /* background-color: aqua; */
+}
+
+header .logo {
+    padding: 10px;
+    cursor: pointer;
+}
+
+header .logo h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: green;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+    width: 100%;
+    /* background-color: brown; */
+}
+
+main .container {
+    width: 60%;
+    min-height: 100%;
+    border: 1px solid #e1dfdf;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vw 2vw;
+
+}
+
+main .container .box {
+    margin: 2rem 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .container .box .heading {
+    padding: 30px;
+    /* background-color: aqua; */
+}
+
+main .container .box .heading h3 {
+    font-size: 35px;
+    /* padding: 40px 10px; */
+    font-weight: 500;
+}
+
+main .container .box .radio-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+main .container .box .radio-group .radio-contaoner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4vw;
+
+}
+
+main .container .box .radio-group .radio-contaoner .label-one,
+.label-two {
+    width: 40%;
+    height: 160px;
+    border: 2px solid #e1dfdf;
+    display: block;
+    align-items: center;
+
+    padding: 0px 2vw;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+main .container .box .radio-group .radio-contaoner .label-one #client,
+.label-two #freelancer {
+    margin: 1vw 0px 2vw 14vw;
+    accent-color: green;
+    width: 15px;
+    height: 15px;
+}
+
+main .container .box .radio-group .radio-contaoner .label-one h4,
+.label-two h4 {
+    font-size: 1.4vw;
+    font-weight: 400;
+
+}
+
+main .container .box .radio-group h3 {
+    font-weight: 500;
+    margin-top: 60px;
+    text-align: justify;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    word-spacing: -0.9px;
+    line-height: 27.9px;
+}
+
+main .container .box .btn-section {
+    margin: 30px 0px;
+    background-color: green;
+    border-radius: 50px;
+    width: 50%;
+    height: 4vh;
+    padding: 1.6vw ;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .box .signup {
+    width: 100%;
+
+}
+
+main .container .box .signup a {
+    color: white;
+    font-size: 1.2vw;
+    /* display: none; */
+    font-weight: 500;
+}
+
+main .container .box .client-acc {
+    width: 100%;
+    display: none;
+}
+
+main .container .box .client-acc a {
+    color: white;
+
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+main .container .box .freelancer-acc {
+    width: 100%;
+    display: none;
+}
+
+main .container .box .freelancer-acc a {
+    color: white;
+    /* display: none; */
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+main .container .box .login {
+    font-weight: 300;
+
+}
+
+main .container .box .login span a {
+    color: green;
+    font-weight: 500;
+}
